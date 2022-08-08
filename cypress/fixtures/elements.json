@@ -1,0 +1,47 @@
+{
+  "not_logged_home": {
+    "link_login": "a[class='button-text-4il'][href='/login']"
+  },
+
+  "login": {
+    "input_taxvat": "[id^=taxvat]",
+    "input_pass": "[id^=pass]",
+    "button_login":"[class*=submitButton]"
+  },
+
+  "home": {
+    "indicated_products": "[class='button-text-4il productList-link-ah2'][href='/indicated-products']",
+    "carousel_page_5": ":nth-child(5) > button",
+    "carousel_page_5_product_1_unit_measure_box": ".slick-current > :nth-child(1) > .productList-productCardContainer--4I > .productCard-shape-1Rc > .shape-base-3af > .addToCart-addToCart-ZI5 > .addToCart-toggle-3RW > :nth-child(2)",
+    "carousel_page_5_product_1_quantity": "[data-index='5'] > :nth-child(1) > .productList-productCardContainer--4I > .productCard-shape-1Rc > .shape-base-3af > .addToCart-addToCart-ZI5 > .addToCart-cartContainer-1Dk > .input-fieldsetContainer-1pJ > .input-inputContainer-2eg > .input-input-Huk",
+    "carousel_page_5_product_1_add_to_cart": ":nth-child(5) > .productContainer > .carousel-root-1hS > .slick-slider > .slick-list > .slick-track > [data-index='5'] > :nth-child(1) > .productList-productCardContainer--4I > .productCard-shape-1Rc > .shape-base-3af > .addToCart-addToCart-ZI5 > .addToCart-cartContainer-1Dk > .button-primary-1R0 > .addToCart-cartButtonIcons-23f > :nth-child(2)",
+    "carousel_page_6": ":nth-child(6) > button",
+    "carousel_page_6_product_2_quantity": "[data-index='6'] > :nth-child(1) > .productList-productCardContainer--4I > .productCard-shape-1Rc > .shape-base-3af > .addToCart-addToCart-ZI5 > .addToCart-cartContainer-1Dk > .input-fieldsetContainer-1pJ > .input-inputContainer-2eg > .input-input-Huk",
+    "carousel_page_6_product_2_add_to_cart": ":nth-child(5) > .productContainer > .carousel-root-1hS > .slick-slider > .slick-list > .slick-track > [data-index='6'] > :nth-child(1) > .productList-productCardContainer--4I > .productCard-shape-1Rc > .shape-base-3af > .addToCart-addToCart-ZI5 > .addToCart-cartContainer-1Dk > .button-primary-1R0"
+  },
+
+  "product_detail": {
+    "dropdown_box": "[class='icon-small-ZIr icon-primary-11i dropdown-icon-1Rz']",
+    "dropdown_quantity_4": ".list-opened-1F4 > :nth-child(4)"
+  },
+
+  "product": {
+    "about_product_passatempo": "[class*='button-text-4il'][href='/12279458-biscoito-passatempo-leite-150g.html']",
+    "about_product_bebida_arroz": "[class*='button-text-4il'][href='/12279567-bebida-de-arroz-nesfit-integral-1l.html']"
+  },
+
+  "header": {
+    "logo": "[class='header-logo-3G7']",
+    "minicart": "[class='icon-medium-3uO icon-black-kTT cartTrigger-cartIcon-37G']",
+    "minicart_remove_item": "[class='button-text-4il item-cartItemRemove-1p8'][title='Remover item']",
+    "minicart_product_quantity": "span[class='cartTrigger-triggerCount-1kd']",
+    "minicart_to_cart": "[class='button-secondary-2cW button-base-2z7 minicart-cartLink-3TG'][href='/cart']",
+    "search_bar": "#search"
+  },
+
+  "cart": {
+    "remove_from_cart": "[class='product-removeButton-AHM'][title='Remover produto']",
+    "clear_cart": "[class='clearCart-clearCart-1Ro']"
+  }
+}
+

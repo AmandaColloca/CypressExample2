@@ -1,0 +1,25 @@
+Run cypress in local: npx cypress open 
+Prefer run cypress in docker (attention to cypress version):
+
+sudo docker run -it \
+  -v $PWD:/e2e \
+  -v /tmp/.X11-unix:/tmp/.X11-unix \
+  -w /e2e \
+  -e DISPLAY \
+  --entrypoint cypress \
+  cypress/included:9.5.1 open --project .
+
+-----------------------------------------------------
+
+In case of this error: 
+
+If you received this error 
+
+"Unable to open X display.
+The futex facility returned an unexpected error code."
+
+run:
+
+export DISPLAY=:0
+
+xhost +
